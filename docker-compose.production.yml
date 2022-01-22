@@ -11,7 +11,7 @@ services:
     build: .
     env_file:
       - .env
-    command: /usr/src/app/entrypoint.sh
+    command: /code/entrypoint.sh
     volumes:
       - .:/code
     ports:
